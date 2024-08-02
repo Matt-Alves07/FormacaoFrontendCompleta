@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>M2A Host</title>
+
+    <!-- Project stylesheet and icons -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+    />
+    <!-- End of project stylesheet and icons -->
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <!-- Container -->
+    <div class="container">
+        <!-- Navbar -->
+        <div class="navbar-container">
+            <nav>
+                <!-- Logo -->
+                <a href="#">
+                    <img src="imgs/hdchostlogo.png" alt="hDC Host" class="logo" />
+                </a>
+                <!-- End of logo -->
+
+                <!-- Navbar links -->
+                <ul class="navbar-items">
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">Preços</a>
+                    </li>
+                    <li>
+                        <a href="#">Contato</a>
+                    </li>
+                    <li>
+                        <a href="#" class="default-btn">Entrar</a>
+                    </li>
+                </ul>
+                <!-- End of navbar links -->
+            </nav>
+        </div>
+        <!-- End of Navbar -->
+
+        <!-- Body main -->
+        <main>
+            <div class="main-banner">
+                <h1>M2A host</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit</p>
+            </div>
+
+            <section class="services-container">
+                <ul>
+                    <li>
+                        <i class="fas fa-shield-alt"></i>
+                        
+                        <h3>Segurança</h3>
+
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis, expedita dolor sapiente, neque aut esse amet totam nobis accusantium voluptatem libero suscipit labore quasi aspernatur, accusamus eligendi vitae? Harum, alias.
+                        </p>
+                    </li>
+                    <li>
+                        <i class="fas fa-rocket"></i>
+                        
+                        <h3>Performance</h3>
+
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis, expedita dolor sapiente, neque aut esse amet totam nobis accusantium voluptatem libero suscipit labore quasi aspernatur, accusamus eligendi vitae? Harum, alias.
+                        </p>
+                    </li>
+                    <li>
+                        <i class="fas fa-comments"></i>
+                        
+                        <h3>Suporte 24/7</h3>
+
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis, expedita dolor sapiente, neque aut esse amet totam nobis accusantium voluptatem libero suscipit labore quasi aspernatur, accusamus eligendi vitae? Harum, alias.
+                        </p>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="pricing-container">
+                <h2>Planos e preços</h2>
+
+                <p>Selecione o melhor plano para suas necessidades:</p>
+
+                <div class="plans-container">
+                    <div class="plan">
+                        <li class="price">R$15/mês</li>
+                        <li class="plan-name">Básico</li>
+                        <li>2GB de espaço</li>
+                        <li>1 subdomínio</li>
+                        <li>25 contas de e-mail</li>
+                        <li>C-Panel</li>
+                        <li>Suporte 24/7</li>
+                        <li class="plan-btn">Saiba mais</li>
+                    </div>
+                    <div class="plan">
+                        <li class="price">R$30/mês</li>
+                        <li class="plan-name">Profissional</li>
+                        <li>5GB de espaço</li>
+                        <li>2 subdomínio</li>
+                        <li>50 contas de e-mail</li>
+                        <li>C-Panel</li>
+                        <li>Suporte 24/7</li>
+                        <li class="plan-btn">Saiba mais</li>
+                    </div>
+                    <div class="plan">
+                        <li class="price recommended">R$50/mês</li>
+                        <li class="plan-name">Profissional Plus</li>
+                        <li>10GB de espaço</li>
+                        <li>5 subdomínio</li>
+                        <li>200 contas de e-mail</li>
+                        <li>C-Panel</li>
+                        <li>Suporte 24/7</li>
+                        <li class="plan-btn">Saiba mais</li>
+                    </div>
+                    <div class="plan">
+                        <li class="price">R$100/mês</li>
+                        <li class="plan-name">Ultimate</li>
+                        <li>20GB de espaço</li>
+                        <li>10 subdomínio</li>
+                        <li>500 contas de e-mail</li>
+                        <li>C-Panel</li>
+                        <li>Suporte 24/7</li>
+                        <li class="plan-btn">Saiba mais</li>
+                    </div>
+                </div>
+            </section>
+
+            <section class="domain-search-container">
+                <h2>Encontre seu domínio</h2>
+
+                <p>Verifique a disponibilidade do domínio desejado</p>
+
+                <form>
+                    <input type="text" name="domain" id="domain" placeholder="Insira o domínio..." />
+
+                    <input type="submit" value="Procurar domínio">
+                </form>
+            </section>
+
+            <section class="contact-container">
+                <h2>Mande uma mensagem</h2>
+
+                <p>Entre em contato conosco, e um especialista entrará em contato com você:</p>
+
+                <form>
+                    <input type="text" name="name" id="name" placeholder="Nome..." />
+
+                    <input type="email" name="email" id="email" placeholder="E-mail...">
+
+                    <textarea name="message" id="message" placeholder="Um breve contexto das suas necessidades..."></textarea>
+
+                    <input type="submit" value="Enviar">
+                </form>
+            </section>
+        </main>
+        <!-- End of body main -->
+
+        <!-- Page footer -->
+        <footer>
+            <p>M2A Host @ 2024</p>
+        </footer>
+        <!-- End of page footer -->
+    </div>
+    <!-- End of Container -->
+</body>
+</html>
