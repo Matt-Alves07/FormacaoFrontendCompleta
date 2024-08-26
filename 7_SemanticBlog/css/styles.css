@@ -1,0 +1,141 @@
+/* General */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+ul { list-style: none; }
+
+a {
+    color: #444;
+    transition: .4s;
+    text-decoration: none;
+}
+
+/*a:hover { color: #31A1F7; }*/
+a:hover { color: #AAA; }
+/* End of general */
+
+/* Nav */
+#navbar {
+    padding: 1.5rem 2.5rem;
+    border-bottom: 2px solid #DDD;
+}
+
+#navbar-inner {
+    display: flex;
+    margin: 0 auto;
+    max-width: 1500px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#nav-links {
+    gap: 1rem;
+    display: flex;
+}
+/* End of nav */
+
+/* Container */
+.container {
+    gap: 3rem;
+    display: flex;
+    margin: 0 auto;
+    max-width: 1400px;
+    padding: 2rem 2.5rem;
+}
+
+#posts-container { flex: 3 1 0; }
+
+.post { margin-bottom: 2.5rem; }
+
+.post img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+.title, .description { margin-bottom: 1rem; }
+
+.title { font-size: 1.9rem; }
+
+.author {
+    color: #333;
+    font-weight: bold;
+}
+/* End of container */
+
+/* Aside */
+#sidebar { flex: 1 1 0; }
+
+#search-bar, #categories, #tags {
+    padding: 1.5rem;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    border: 2px solid #DDD;
+}
+
+#search-bar h4, #categories h4, #tags h4 {
+    font-size: 1.6rem;
+    margin-bottom: 1.5rem;
+}
+
+#search-bar form { display: flex; }
+
+#search-bar input {
+    padding: .5rem 1rem;
+    border: 1px solid #DDD;
+}
+
+#search-bar input[type="text"] {
+    width: 80%;
+    border-right: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+#search-bar input[type="submit"] {
+    transition: .4s;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+#search-bar input[type="submit"]:hover {
+    cursor: pointer;
+    background-color: #BBB;
+}
+
+#categories li { margin-bottom: .5rem; }
+
+#tags-container {
+    gap: .5rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#tags-container a {
+    border-radius: .3rem;
+    padding: .5rem .7rem;
+    background-color: #DDD;
+}
+/* End of aside */
+
+/* Footer */
+#footer {
+    padding: 2rem;
+    text-align: center;
+    padding-bottom: .5rem;
+    border: 2px solid #DDD;
+}
+
+#footer h2 { margin-bottom: 1rem; }
+/* End of footer */
+
+/* Responsive */
+@media (max-width: 480px) {
+    .container {
+        flex-wrap: wrap;
+    }
+}
+/* End of responsive */
