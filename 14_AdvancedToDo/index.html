@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Advanced To-Do</title>
+
+    <!-- Local files -->
+    <script src="js/script.js" defer></script>
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Font Awesome -->
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+    />
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
+    <!-- Compatibility -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>To-Do Avançado</h1>
+        </header>
+
+        <main>
+            <form id="todo-form">
+                <p>Adicione sua tarefa:</p>
+    
+                <div class="form-control">
+                    <input type="text" id="input-todo" placeholder="O que faremos hoje?">
+    
+                    <button type="submit">
+                        <i class="fa-solid fa-plus"></i>
+                    </button>
+                </div>
+            </form>
+    
+            <form id="edit-form" class="hide">
+                <p>Edite sua tarefa:</p>
+    
+                <div class="form-control">
+                    <input type="text" id="input-edit">
+    
+                    <button type="submit">
+                        <i class="fa-solid fa-floppy-disk"></i>
+                    </button>
+                </div>
+    
+                <button id="cancel-edit">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </form>
+    
+            <div id="toolbar">
+                <div id="search">
+                    <h4>Pesquisar:</h4>
+    
+                    <form>
+                        <input type="text" id="search-input">
+    
+                        <button id="erase-button">
+                            <i class="fa-solid fa-delete-left"></i>
+                        </button>
+                    </form>
+                </div>
+    
+                <div id="filter">
+                    <h4>Filtrar:</h4>
+    
+                    <select id="filter-select">
+                        <option value="all">Todas</option>
+                        <option value="done">Feitas</option>
+                        <option value="pending">Pendentes</option>
+                    </select>
+                </div>
+            </div>
+    
+            <div id="todo-list">
+                <div class="todo">
+                    <h3>O que eu estou fazendo?</h3>
+    
+                    <button class="finish-todo">
+                        <i class="fa-solid fa-check"></i>
+                    </button>
+    
+                    <button class="edit-todo">
+                        <i class="fa-solid fa-pen-to-square"></i>
+                    </button>
+    
+                    <button class="remove-todo">
+                        <i class="fa-solid fa-trash-can"></i>
+                    </button>
+                </div>
+            </div>
+    
+            <div id="todo-list"></div>
+                <div class="todo done">
+                    <h3>À espera de um milagre</h3>
+    
+                    <button class="finish-todo">
+                        <i class="fa-solid fa-check"></i>
+                    </button>
+    
+                    <button class="edit-todo">
+                        <i class="fa-solid fa-pen-to-square"></i>
+                    </button>
+    
+                    <button class="remove-todo">
+                        <i class="fa-solid fa-trash-can"></i>
+                    </button>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
