@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Tabajaras note's</title>
+
+    <script src="js/script.js" defer></script>
+    <link rel="stylesheet" href="css/styles.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <header>
+        <h1>Tabajaras note's</h1>
+
+        <div id="search-container">
+            <i class="bi bi-search"></i>
+
+            <input type="text" id="search-input" placeholder="Digite o texto para pesquisar...">
+        </div>
+
+        <button id="export-notes">
+            Exportar <i class="bi bi-filetype-csv"></i>
+        </button>
+    </header>
+
+    <main>
+        <div id="add-note-container">
+            <input type="text" id="note-content" placeholder="O que você vai anotar em seguida?">
+
+            <button class="add-note">
+                <i class="bi bi-plus-circle"></i>
+            </button>
+        </div>
+
+        <div id="notes-container">
+        </div>
+    </main>
+</body>
+</html>
