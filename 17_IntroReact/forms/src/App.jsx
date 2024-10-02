@@ -7,7 +7,7 @@ function App() {
     <>
       <h1>Hello world</h1>
 
-      <Form />
+      <Form userName="John Doe" userEmail="john.doe@test.com" />
     </>
   )
 }
