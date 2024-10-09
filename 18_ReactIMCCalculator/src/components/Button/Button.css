@@ -1,0 +1,52 @@
+button {
+    flex: 1;
+    transition: .3s;
+    color: #F44236;
+    border-radius: 5px;
+    padding: 1rem 1.5rem;
+    text-transform: uppercase;
+    border: 1px solid #F44236;
+    background-color: transparent;
+}
+
+button:hover { cursor: pointer; }
+
+#submit-btn {
+    gap: 1;
+    color: #34DB7A;
+    border: 1px solid #34DB7A;
+}
+
+#submit-btn:hover {
+    color: #FFF;
+    border-color: transparent;
+    background-color: #34DB7A9F;
+}
+
+#clear-btn {
+    color: #FFC107;
+    border: 1px solid #FFC107;
+}
+
+#clear-btn:hover {
+    color: #FFF;
+    border-color: transparent;
+    background-color: #FFC107;
+}
+
+#back-btn {
+    margin-top: .8rem;
+    align-self: center;
+}
+
+#back-btn:hover {
+    color: #FFF;
+    cursor: pointer;
+    border-color: transparent;
+    background-color: #F44236;
+}
+
+.low { color: #DBCE12; }
+.good { color: #12DB34; }
+.medium { color: #DB6212; }
+.high { color: #DB1912; }
