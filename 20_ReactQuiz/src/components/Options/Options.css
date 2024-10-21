@@ -1,0 +1,31 @@
+.option {
+    opacity: .8;
+    padding: 1rem;
+    cursor: pointer;
+    transition: .4s;
+    margin-bottom: 1rem;
+    border-radius: .5rem;
+    background-color: #3C0E70;
+}
+
+.option:hover { opacity: 1; }
+
+.correct {
+    font-weight: bold;
+    background-color: #0BFC03;
+}
+
+.wrong {
+    opacity: .4;
+    background-color: #3C0E70;
+}
+
+.hide { display: none; }
+
+@media only screen and (max-width: 480px) {
+    .option {
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 1rem;
+    }
+}

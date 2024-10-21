@@ -1,0 +1,26 @@
+#gameover h2 { text-transform: uppercase; }
+
+#gameover {
+    display: flex;
+    max-width: 500px;
+    text-align: center;
+    flex-direction: column;
+}
+
+#gameover h2, #gameover p { margin-bottom: 1rem; }
+#gameover p { margin-bottom: 1rem; }
+/* #gameover button { border: 2px solid #FFF; } */
+
+#gameover img {
+    margin: 2rem;
+    height: 200px;
+}
+
+@media only screen and (max-width: 480px) {
+    #gameover {
+        width: 100%;
+        border-radius: 0;
+    }
+
+    #gameover button { border-radius: 0; }
+}

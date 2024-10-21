@@ -1,0 +1,21 @@
+#category {
+    display: flex;
+    max-width: 500px;
+    text-align: center;
+    flex-direction: column;
+}
+
+#category h2, #category p { margin-bottom: 1rem; }
+#category p { color: #8435DE; }
+
+#category img {
+    max-width: 300px;
+    margin: 2rem auto;
+}
+
+#category button {
+    margin: .5rem;
+    text-transform: uppercase;
+}
+
+#category-buttons { flex-direction: row; }

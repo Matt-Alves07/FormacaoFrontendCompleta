@@ -1,0 +1,19 @@
+#question {
+    padding: 2rem;
+    max-width: 500px;
+    text-align: center;
+    border-radius: 1rem;
+    background-color: #8435DE;
+}
+
+#question h2 { margin-bottom: 2rem; }
+#question p { margin-bottom: 1rem; }
+
+#question button {
+    margin: .3rem;
+    border: 2px solid #FFF;
+}
+
+@media only screen and (max-width: 480px) {
+    #question { width: 80%; }
+}
