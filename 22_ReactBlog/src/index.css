@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Blinker', Helvetica, sans-serif;
+}
+
+body {
+  color: #FFF;
+  background-color: #0E1217;
+}
+
+ul { list-style: none; }
+
+a {
+  opacity: .7;
+  color: #FFF;
+  transition: .3s;
+  text-decoration: none;
+}
+
+a:hover { opacity: 1; }
+
+p { color: A9ABB3; }

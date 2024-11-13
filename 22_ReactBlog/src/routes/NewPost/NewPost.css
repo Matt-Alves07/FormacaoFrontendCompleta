@@ -1,0 +1,26 @@
+.new-post h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+form {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 500px;
+}
+
+.form-control {
+    display: flex;
+    margin-bottom: 1rem;
+    flex-direction: column;
+}
+
+.form-control label { margin-bottom: .5rem; }
+
+.form-control input, .form-control textarea {
+    border: none;
+    padding: .5rem;
+    border-radius: 5px;
+}
+
+.form-control textarea { height: 10rem; }
